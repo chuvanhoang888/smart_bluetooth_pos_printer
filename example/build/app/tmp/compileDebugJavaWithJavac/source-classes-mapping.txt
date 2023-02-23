@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/smart/smart_bluetooth_pos_printer_example/BuildConfig.java
+ com.smart.smart_bluetooth_pos_printer_example.BuildConfig

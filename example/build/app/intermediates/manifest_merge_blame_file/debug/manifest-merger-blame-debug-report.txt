@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.smart.smart_bluetooth_pos_printer_example"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\android\app\src\debug\AndroidManifest.xml:6:22-64
+15
+16    <uses-feature
+16-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-11:36
+17        android:name="android.hardware.bluetooth"
+17-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-50
+18        android:required="false" />
+18-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-33
+19
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+20-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- BLUETOOTH PERMISSION -->
+21-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-81
+21-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-78
+22    <!-- Request legacy Bluetooth permissions on older devices. -->
+23    <uses-permission android:name="android.permission.BLUETOOTH" />
+23-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-68
+23-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-65
+24    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+24-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-74
+24-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-71
+25    <!--
+26         Needed only if your app looks for Bluetooth devices.
+27             If your app doesn't use Bluetooth scan results to derive physical
+28             location information, you can strongly assert that your app
+29             doesn't derive physical location.
+30    -->
+31    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+31-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:25:5-73
+31-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:25:22-70
+32    <!--
+33      Needed only if your app makes the device discoverable to Bluetooth
+34      devices.
+35    -->
+36    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+36-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-78
+36-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:30:22-75
+37    <!--
+38         Needed only if your app communicates with already-paired Bluetooth
+39           devices.
+40    -->
+41    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+41-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:35:5-76
+41-->[:smart_bluetooth_pos_printer] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\smart_bluetooth_pos_printer\intermediates\library_manifest\debug\AndroidManifest.xml:35:22-73
+42    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+42-->[:network_info_plus] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\network_info_plus\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+42-->[:network_info_plus] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\network_info_plus\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+43    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+43-->[:network_info_plus] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\network_info_plus\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-76
+43-->[:network_info_plus] C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\example\build\network_info_plus\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-73
+44
+45    <application
+46        android:name="android.app.Application"
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.6.0] C:\Users\hoang\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
+48        android:debuggable="true"
+49        android:icon="@mipmap/ic_launcher"
+50        android:label="smart_bluetooth_pos_printer_example" >
+51        <activity
+52            android:name="com.smart.smart_bluetooth_pos_printer_example.MainActivity"
+53            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+54            android:exported="true"
+55            android:hardwareAccelerated="true"
+56            android:launchMode="singleTop"
+57            android:theme="@style/LaunchTheme"
+58            android:windowSoftInputMode="adjustResize" >
+59
+60            <!--
+61                 Specifies an Android theme to apply to this Activity as soon as
+62                 the Android process has started. This theme is visible to the user
+63                 while the Flutter UI initializes. After that, this theme continues
+64                 to determine the Window background behind the Flutter UI.
+65            -->
+66            <meta-data
+67                android:name="io.flutter.embedding.android.NormalTheme"
+68                android:resource="@style/NormalTheme" />
+69
+70            <intent-filter>
+71                <action android:name="android.intent.action.MAIN" />
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+74            </intent-filter>
+75            <intent-filter>
+76                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+77                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+78            </intent-filter>
+79        </activity>
+80        <!--
+81             Don't delete the meta-data below.
+82             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+83        -->
+84        <meta-data
+85            android:name="flutterEmbedding"
+86            android:value="2" />
+87
+88        <receiver
+89            android:name="com.smart.smart_bluetooth_pos_printer.usb.UsbReceiver"
+90            android:exported="false" >
+91            <intent-filter>
+92                <action android:name="android.hardware.usb.action.ACTION_USB_PERMISSION" />
+93                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+94                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+95                <action android:name="com.flutter_pos_printer.USB_PERMISSION" />
+96            </intent-filter>
+97        </receiver>
+98
+99        <uses-library
+99-->[androidx.window:window:1.0.0-beta04] C:\Users\hoang\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+100            android:name="androidx.window.extensions"
+100-->[androidx.window:window:1.0.0-beta04] C:\Users\hoang\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+101            android:required="false" />
+101-->[androidx.window:window:1.0.0-beta04] C:\Users\hoang\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+102        <uses-library
+102-->[androidx.window:window:1.0.0-beta04] C:\Users\hoang\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+103            android:name="androidx.window.sidecar"
+103-->[androidx.window:window:1.0.0-beta04] C:\Users\hoang\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+104            android:required="false" />
+104-->[androidx.window:window:1.0.0-beta04] C:\Users\hoang\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+105    </application>
+106
+107</manifest>

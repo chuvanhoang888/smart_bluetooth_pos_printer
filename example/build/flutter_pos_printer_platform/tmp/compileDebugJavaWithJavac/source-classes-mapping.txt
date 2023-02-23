@@ -1,0 +1,2 @@
+com/smart/smart_bluetooth_pos_printer/BuildConfig.java
+ com.smart.smart_bluetooth_pos_printer.BuildConfig

@@ -1,0 +1,59 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:1:1-25:12
+	package
+		ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:2:3-50
+		INJECTED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:1:11-69
+uses-feature#android.hardware.bluetooth
+ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:4:5-6:36
+	android:required
+		ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:6:9-33
+	android:name
+		ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:5:9-50
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:12:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:13:22-71
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:18:5-73
+	android:name
+		ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:18:22-70
+uses-permission#android.permission.BLUETOOTH_ADVERTISE
+ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:21:5-78
+	android:name
+		ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:21:22-75
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:24:5-76
+	android:name
+		ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:24:22-73
+uses-sdk
+INJECTED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml

@@ -1,0 +1,6 @@
+R_DEF: Internal format may change without notice
+local
+string fail_connect_bt
+string fail_write_data
+string lost_connection_bt
+string not_permissions

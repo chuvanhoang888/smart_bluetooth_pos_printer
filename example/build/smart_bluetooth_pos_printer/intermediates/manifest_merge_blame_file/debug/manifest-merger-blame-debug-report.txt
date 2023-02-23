@@ -1,0 +1,56 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.smart.smart_bluetooth_pos_printer" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="31" />
+7-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml
+8
+9    <uses-feature
+9-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:4:5-6:36
+10        android:name="android.hardware.bluetooth"
+10-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:5:9-50
+11        android:required="false" />
+11-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:6:9-33
+12
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:8:5-79
+13-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:9:5-81
+14-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:9:22-78
+15    <!-- BLUETOOTH PERMISSION -->
+16    <!-- Request legacy Bluetooth permissions on older devices. -->
+17    <uses-permission android:name="android.permission.BLUETOOTH" />
+17-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:12:5-68
+17-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:12:22-65
+18    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+18-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:13:5-74
+18-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:13:22-71
+19    <!--
+20         Needed only if your app looks for Bluetooth devices.
+21             If your app doesn't use Bluetooth scan results to derive physical
+22             location information, you can strongly assert that your app
+23             doesn't derive physical location.
+24    -->
+25    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+25-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:18:5-73
+25-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:18:22-70
+26    <!--
+27      Needed only if your app makes the device discoverable to Bluetooth
+28      devices.
+29    -->
+30    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+30-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:21:5-78
+30-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:21:22-75
+31    <!--
+32         Needed only if your app communicates with already-paired Bluetooth
+33           devices.
+34    -->
+35    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+35-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:24:5-76
+35-->C:\Users\hoang\Documents\FLUTTER\PACKAGE\smart_bluetooth_pos_printer\android\src\main\AndroidManifest.xml:24:22-73
+36
+37</manifest>
