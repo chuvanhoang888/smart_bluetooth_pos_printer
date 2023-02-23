@@ -1,6 +1,6 @@
 name: smart_bluetooth_pos_printer
-description: A flutter plugin that prints esc commands to printers in different platforms such as android, ios, windows and different interfaces Bluetooth and BLE, TCP and USB
-version: 1.0.12
+description: A flutter plugin that prints esc commands to printers in different platforms such as android, ios, windows and different interfaces Bluetooth and BLE
+version: 1.0.0
 homepage: https://github.com/arthas1888/smart_bluetooth_pos_printer
 
 environment:
