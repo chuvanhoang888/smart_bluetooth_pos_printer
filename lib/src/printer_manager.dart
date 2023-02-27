@@ -13,6 +13,23 @@ class PrinterManager {
     return bluetoothPrinterConnector.discovery(isBle: isBle);
   }
 
+  Stream<List<PrinterDevice>> scanResults() {
+    return bluetoothPrinterConnector.scanResults;
+  }
+
+  Stream<bool> isScanning() {
+    return bluetoothPrinterConnector.isScanning;
+  }
+
+  Future startScan({Duration? timeout, bool isBle = false}) async {
+    return await bluetoothPrinterConnector.startScan(
+        timeout: timeout, isBle: isBle);
+  }
+
+  Future stopScan() async {
+    return await bluetoothPrinterConnector.stopScan();
+  }
+
   Future<bool> connect({required BasePrinterInput model}) async {
     try {
       var conn = await bluetoothPrinterConnector

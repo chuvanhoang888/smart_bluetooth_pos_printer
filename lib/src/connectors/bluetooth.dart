@@ -124,7 +124,7 @@ class BluetoothPrinterConnector
   /// this device is low energy [isBle]
   Stream<PrinterDevice> discovery({
     bool isBle = false,
-    Duration? timeout = const Duration(seconds: 7),
+    Duration? timeout = const Duration(seconds: 5),
   }) async* {
     final killStreams = <Stream>[];
     killStreams.add(_stopScanPill);
@@ -186,10 +186,8 @@ class BluetoothPrinterConnector
   }
 
   /// Start a scan for Bluetooth Low Energy devices
-  Future startScan({
-    Duration? timeout,
-  }) async {
-    await discovery(timeout: timeout).drain();
+  Future startScan({Duration? timeout, bool isBle = false}) async {
+    await discovery(timeout: timeout, isBle: isBle).drain();
     return _scanResults.value;
   }
 

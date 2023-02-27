@@ -8,7 +8,7 @@ enum StarEmulation { StarPRNT, StarLine, StarGraphic }
 
 class StarPrinter extends Printer {
   StarPrinter(
-      {StarEmulation emulation = StarEmulation.StarGraphic, int width: 580}) {
+      {StarEmulation emulation = StarEmulation.StarGraphic, int width = 580}) {
     this._emulation = EnumToString.convertToString(emulation);
     this._width = width;
   }
